@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:400px;
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.balance-container{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.summary{
+    display:flex;
+    justify-content:space-between;
+    background:#fafafa;
+    padding:15px;
+    border-radius:8px;
+    margin-bottom:20px;
+}
+
+.income{
+    color:green;
+}
+
+.expense{
+    color:red;
+}
+
+#list{
+    list-style:none;
+    margin-bottom:20px;
+}
+
+#list li{
+    background:#fff;
+    padding:10px;
+    margin:10px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-right:5px solid green;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+#list li.minus{
+    border-right-color:red;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+.form-control{
+    margin:15px 0;
+}
+
+.form-control label{
+    display:block;
+    margin-bottom:5px;
+}
+
+.form-control input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.btn{
+    width:100%;
+    padding:12px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.btn:hover{
+    background:#0056b3;
+}
